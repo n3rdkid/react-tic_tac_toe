@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Board from './Board';
+import './normalize.css'
+import Game from './Game';
 
-ReactDOM.render(<Board />, document.getElementById('root'));
+ReactDOM.render(<Game />, document.getElementById('root'));

@@ -1,6 +1,6 @@
 import React from 'react';
-
+import classes from './Square.module.css'
 const square = (props)=>{
-    return <button></button>
+    return <button className={classes.square} onClick={props.clicked}>{props.value}</button>
 }
 export default square;
