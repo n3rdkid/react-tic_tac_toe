@@ -1,9 +1,0 @@
-.game{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:100vh;
-}
-.game-info{
-       margin-left:50px;
-}
